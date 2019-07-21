@@ -1,0 +1,9 @@
+{
+  "connection_file": "claiming-ins-channel_fabcar_profile.json",
+  "appAdmin": "LtnIns-Client-01",
+  "appAdminSecret": "123456",
+  "orgMSPID": "LightningIns-UnderwritingServer",
+  "caName": "184.172.214.251:30171",
+  "userName": "LtnIns-Client-02",
+  "gatewayDiscovery": { "enabled": true, "asLocalhost": false }
+}

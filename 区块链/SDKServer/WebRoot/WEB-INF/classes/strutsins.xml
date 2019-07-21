@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+    <struts>
+    	<constant name="struts.ognl.allowStaticMethodAccess" value="true"></constant>
+    	<constant name="struts.devMode" value="true"></constant>
+    	<constant name="struts.multipart.maxSize" value="5242880"></constant>
+    	<constant name="struts.custom.i18n.resources" value="fileupload_message"></constant>
+    	<package name = "SDK" namespace = "/SDK" extends = "struts-default">
+			<action name = "initial" class = "com.SDK.action.Action" method = "initial">
+        	</action>
+        	<action name = "insert" class = "com.SDK.action.Action" method = "insert">
+        	</action>
+        	<action name = "updatestatus" class = "com.SDK.action.Action" method = "updatestatus">
+        	</action>
+        	<action name = "updateresult" class = "com.SDK.action.Action" method = "updateresult">
+        	</action>
+        	<action name = "search" class = "com.SDK.action.Action" method = "saerch">
+        	</action>
+    	</package>
+    </struts>

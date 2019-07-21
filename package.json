@@ -1,0 +1,38 @@
+{
+  "name": "p020-saofeng-sgraduation",
+  "version": "1.0.0",
+  "description": "WildSaoFeng's work for its Bachlor Degree Graguation Design",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WildSaoFeng/P020-SaoFeng-sGraduation.git"
+  },
+  "keywords": [
+    "blockchain",
+    "computer-version",
+    "artificial-intelligence"
+  ],
+  "author": "WildSaoFeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WildSaoFeng/P020-SaoFeng-sGraduation/issues"
+  },
+  "homepage": "https://github.com/WildSaoFeng/P020-SaoFeng-sGraduation#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "express-session": "^1.16.1",
+    "koa": "^2.0.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.9",
+    "passport": "^0.4.0",
+    "path": "^0.12.7",
+    "koa-router": "7.0.0"
+  }
+}
